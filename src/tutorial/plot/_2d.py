@@ -8,7 +8,7 @@ from ._utils import extend_range, compute_plot_bounds, get_color_map
 # 2D HELPERS
 # ======================
 
-def create_meshgrid_2d(features, bounds, resolution=150):
+def create_meshgrid_2d(features, bounds, resolution=125):
 	x_min, x_max = bounds[features[0]]
 	y_min, y_max = bounds[features[1]]
 

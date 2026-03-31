@@ -10,7 +10,7 @@ from ._utils import extend_range, compute_plot_bounds, get_color_map
 # 3D HELPERS
 # ======================
 
-def create_meshgrid_3d(features, bounds, resolution=30):
+def create_meshgrid_3d(features, bounds, resolution=25):
 	x_min, x_max = bounds[features[0]]
 	y_min, y_max = bounds[features[1]]
 	z_min, z_max = bounds[features[2]]
